@@ -12,15 +12,16 @@
 		3C817E8C19DE13B00019C413 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C817E8B19DE13B00019C413 /* UIKit.framework */; };
 		3C817E9219DE13B00019C413 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C817E9019DE13B00019C413 /* InfoPlist.strings */; };
 		3C817E9419DE13B00019C413 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C817E9319DE13B00019C413 /* main.m */; };
-		3C817E9819DE13B00019C413 /* CAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C817E9719DE13B00019C413 /* CAppDelegate.m */; };
+		3C817E9819DE13B00019C413 /* MAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C817E9719DE13B00019C413 /* MAAppDelegate.m */; };
 		3C817E9B19DE13B00019C413 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C817E9919DE13B00019C413 /* Main.storyboard */; };
-		3C817E9E19DE13B00019C413 /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C817E9D19DE13B00019C413 /* CViewController.m */; };
+		3C817E9E19DE13B00019C413 /* MAAskNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C817E9D19DE13B00019C413 /* MAAskNameViewController.m */; };
 		3C817EA019DE13B00019C413 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C817E9F19DE13B00019C413 /* Images.xcassets */; };
 		3C817EA719DE13B00019C413 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C817EA619DE13B00019C413 /* XCTest.framework */; };
 		3C817EA819DE13B00019C413 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C817E8719DE13B00019C413 /* Foundation.framework */; };
 		3C817EA919DE13B00019C413 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C817E8B19DE13B00019C413 /* UIKit.framework */; };
 		3C817EB119DE13B00019C413 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C817EAF19DE13B00019C413 /* InfoPlist.strings */; };
 		3C817EB319DE13B00019C413 /* ExampleProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C817EB219DE13B00019C413 /* ExampleProjectTests.m */; };
+		5F5E93D01A015D9E00506DD3 /* MAHelloViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5E93CF1A015D9E00506DD3 /* MAHelloViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,17 +43,19 @@
 		3C817E9119DE13B00019C413 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3C817E9319DE13B00019C413 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3C817E9519DE13B00019C413 /* ExampleProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExampleProject-Prefix.pch"; sourceTree = "<group>"; };
-		3C817E9619DE13B00019C413 /* CAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAppDelegate.h; sourceTree = "<group>"; };
-		3C817E9719DE13B00019C413 /* CAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAppDelegate.m; sourceTree = "<group>"; };
+		3C817E9619DE13B00019C413 /* MAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAAppDelegate.h; sourceTree = "<group>"; };
+		3C817E9719DE13B00019C413 /* MAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAAppDelegate.m; sourceTree = "<group>"; };
 		3C817E9A19DE13B00019C413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3C817E9C19DE13B00019C413 /* CViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CViewController.h; sourceTree = "<group>"; };
-		3C817E9D19DE13B00019C413 /* CViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CViewController.m; sourceTree = "<group>"; };
+		3C817E9C19DE13B00019C413 /* MAAskNameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAAskNameViewController.h; sourceTree = "<group>"; };
+		3C817E9D19DE13B00019C413 /* MAAskNameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAAskNameViewController.m; sourceTree = "<group>"; };
 		3C817E9F19DE13B00019C413 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3C817EA519DE13B00019C413 /* ExampleProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C817EA619DE13B00019C413 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3C817EAE19DE13B00019C413 /* ExampleProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExampleProjectTests-Info.plist"; sourceTree = "<group>"; };
 		3C817EB019DE13B00019C413 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3C817EB219DE13B00019C413 /* ExampleProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleProjectTests.m; sourceTree = "<group>"; };
+		5F5E93CE1A015D9E00506DD3 /* MAHelloViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAHelloViewController.h; sourceTree = "<group>"; };
+		5F5E93CF1A015D9E00506DD3 /* MAHelloViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAHelloViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +115,13 @@
 		3C817E8D19DE13B00019C413 /* ExampleProject */ = {
 			isa = PBXGroup;
 			children = (
-				3C817E9619DE13B00019C413 /* CAppDelegate.h */,
-				3C817E9719DE13B00019C413 /* CAppDelegate.m */,
+				3C817E9619DE13B00019C413 /* MAAppDelegate.h */,
+				3C817E9719DE13B00019C413 /* MAAppDelegate.m */,
 				3C817E9919DE13B00019C413 /* Main.storyboard */,
-				3C817E9C19DE13B00019C413 /* CViewController.h */,
-				3C817E9D19DE13B00019C413 /* CViewController.m */,
+				3C817E9C19DE13B00019C413 /* MAAskNameViewController.h */,
+				3C817E9D19DE13B00019C413 /* MAAskNameViewController.m */,
+				5F5E93CE1A015D9E00506DD3 /* MAHelloViewController.h */,
+				5F5E93CF1A015D9E00506DD3 /* MAHelloViewController.m */,
 				3C817E9F19DE13B00019C413 /* Images.xcassets */,
 				3C817E8E19DE13B00019C413 /* Supporting Files */,
 			);
@@ -196,7 +201,7 @@
 		3C817E7C19DE13B00019C413 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = C;
+				CLASSPREFIX = MA;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Jinatum;
 				TargetAttributes = {
@@ -250,9 +255,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C817E9819DE13B00019C413 /* CAppDelegate.m in Sources */,
+				3C817E9819DE13B00019C413 /* MAAppDelegate.m in Sources */,
 				3C817E9419DE13B00019C413 /* main.m in Sources */,
-				3C817E9E19DE13B00019C413 /* CViewController.m in Sources */,
+				3C817E9E19DE13B00019C413 /* MAAskNameViewController.m in Sources */,
+				5F5E93D01A015D9E00506DD3 /* MAHelloViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +463,7 @@
 				3C817EB819DE13B00019C413 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C817EB919DE13B00019C413 /* Build configuration list for PBXNativeTarget "ExampleProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				3C817EBB19DE13B00019C413 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

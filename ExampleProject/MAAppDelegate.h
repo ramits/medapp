@@ -1,5 +1,5 @@
 //
-//  CViewController.h
+//  CAppDelegate.h
 //  ExampleProject
 //
 //  Created by Jin  on 10/2/14.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CViewController : UIViewController
+@interface MAAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 @end

@@ -1,5 +1,5 @@
 //
-//  CAppDelegate.h
+//  CViewController.h
 //  ExampleProject
 //
 //  Created by Jin  on 10/2/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface MAAskNameViewController : UIViewController <UITextFieldDelegate>
 
 @end

@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Jinatum. All rights reserved.
 //
 
-#import "CAppDelegate.h"
+#import "MAAppDelegate.h"
 
-@implementation CAppDelegate
+@implementation MAAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
