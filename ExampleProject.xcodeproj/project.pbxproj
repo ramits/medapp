@@ -22,6 +22,7 @@
 		3C817EB119DE13B00019C413 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C817EAF19DE13B00019C413 /* InfoPlist.strings */; };
 		3C817EB319DE13B00019C413 /* ExampleProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C817EB219DE13B00019C413 /* ExampleProjectTests.m */; };
 		5F5E93D01A015D9E00506DD3 /* MAHelloViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5E93CF1A015D9E00506DD3 /* MAHelloViewController.m */; };
+		5F5E93D31A01610000506DD3 /* MAMedication.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5E93D21A01610000506DD3 /* MAMedication.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		3C817EB219DE13B00019C413 /* ExampleProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleProjectTests.m; sourceTree = "<group>"; };
 		5F5E93CE1A015D9E00506DD3 /* MAHelloViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAHelloViewController.h; sourceTree = "<group>"; };
 		5F5E93CF1A015D9E00506DD3 /* MAHelloViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAHelloViewController.m; sourceTree = "<group>"; };
+		5F5E93D11A01610000506DD3 /* MAMedication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAMedication.h; sourceTree = "<group>"; };
+		5F5E93D21A01610000506DD3 /* MAMedication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAMedication.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				3C817E9D19DE13B00019C413 /* MAAskNameViewController.m */,
 				5F5E93CE1A015D9E00506DD3 /* MAHelloViewController.h */,
 				5F5E93CF1A015D9E00506DD3 /* MAHelloViewController.m */,
+				5F5E93D11A01610000506DD3 /* MAMedication.h */,
+				5F5E93D21A01610000506DD3 /* MAMedication.m */,
 				3C817E9F19DE13B00019C413 /* Images.xcassets */,
 				3C817E8E19DE13B00019C413 /* Supporting Files */,
 			);
@@ -257,6 +262,7 @@
 			files = (
 				3C817E9819DE13B00019C413 /* MAAppDelegate.m in Sources */,
 				3C817E9419DE13B00019C413 /* main.m in Sources */,
+				5F5E93D31A01610000506DD3 /* MAMedication.m in Sources */,
 				3C817E9E19DE13B00019C413 /* MAAskNameViewController.m in Sources */,
 				5F5E93D01A015D9E00506DD3 /* MAHelloViewController.m in Sources */,
 			);
