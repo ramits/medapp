@@ -24,7 +24,7 @@
 {
     MAMedication *newMed = [MAMedication new];
     newMed.name = self.nameField.text;
-    newMed.dosage = @0;
+    newMed.dosage = @5;
     APPDELEGATE.currentUser.medications = [APPDELEGATE.currentUser.medications arrayByAddingObject:newMed];
     [APPDELEGATE.currentUser saveMedications];
 }
