@@ -1,5 +1,5 @@
 //
-//  MAMedication.h
+//  MAUser.h
 //  ExampleProject
 //
 //  Created by Joseph Constantakis on 10/29/14.
@@ -8,9 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-@interface MAMedication : MTLModel
+@interface MAUser : NSObject
 
 @property (nonatomic, strong) NSString *name;
-@property (nonatomic, strong) NSNumber *dosage;
+@property (nonatomic, strong) NSArray *medications;
+@property (nonatomic, strong) NSArray *contacts;
+
+- (void)saveMedications;
+- (void)loadMedications;
 
 @end

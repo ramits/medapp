@@ -19,7 +19,7 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    self.helloLabel.text = [NSString stringWithFormat:@"Hi %@", [defaults stringForKey:@"Name"]];
+    self.helloLabel.text = [NSString stringWithFormat:@"Hi %@", [defaults stringForKey:@"Username"]];
 }
 
 @end

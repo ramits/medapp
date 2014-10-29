@@ -123,10 +123,10 @@
             </objects>
             <point key="canvasLocation" x="984" y="666"/>
         </scene>
-        <!--View Controller-->
+        <!--Add Medication View Controller-->
         <scene sceneID="F5Q-Fx-HsN">
             <objects>
-                <viewController id="MKC-Na-QlH" sceneMemberID="viewController">
+                <viewController id="MKC-Na-QlH" customClass="MAAddMedicationViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="98a-YJ-UWD"/>
                         <viewControllerLayoutGuide type="bottom" id="Iva-cu-Nqe"/>
@@ -170,6 +170,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="dtg-Wm-bnd"/>
+                    <connections>
+                        <outlet property="nameField" destination="7Om-6h-8Fj" id="Q5p-Pn-dPK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J6w-S3-Jo9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -330,10 +333,10 @@
             </objects>
             <point key="canvasLocation" x="224" y="1456"/>
         </scene>
-        <!--View Controller-->
+        <!--Show Medications View Controller-->
         <scene sceneID="ihh-1z-DUN">
             <objects>
-                <viewController id="n3S-Mm-yec" sceneMemberID="viewController">
+                <viewController id="n3S-Mm-yec" customClass="MAShowMedicationsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8XU-h1-J6K"/>
                         <viewControllerLayoutGuide type="bottom" id="n2h-7g-rqO"/>
@@ -353,7 +356,7 @@
                                 <rect key="frame" x="5" y="124" width="310" height="356"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="bca-QW-Qby" detailTextLabel="Mgd-xs-4Yz" style="IBUITableViewCellStyleValue1" id="DIX-yS-HbX">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MedicationCell" textLabel="bca-QW-Qby" detailTextLabel="Mgd-xs-4Yz" style="IBUITableViewCellStyleValue1" id="DIX-yS-HbX">
                                         <rect key="frame" x="0.0" y="22" width="310" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DIX-yS-HbX" id="zzv-v9-8oF">
@@ -426,6 +429,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="n3S-Mm-yec" id="b38-AC-vZX"/>
+                                    <outlet property="delegate" destination="n3S-Mm-yec" id="Z5d-dX-Nds"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -434,7 +441,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Cc-89-bwI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="623" y="1456"/>
+            <point key="canvasLocation" x="1683" y="2284"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="L9m-Zf-lNY">
@@ -683,7 +690,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pmb-mc-Qmp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="984" y="1456"/>
+            <point key="canvasLocation" x="1016" y="2336"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="BTg-Ud-ojN">

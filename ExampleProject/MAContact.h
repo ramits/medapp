@@ -1,16 +1,16 @@
 //
-//  MAMedication.h
+//  MAContact.h
 //  ExampleProject
 //
 //  Created by Joseph Constantakis on 10/29/14.
 //  Copyright (c) 2014 Jinatum. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "MTLModel.h"
 
-@interface MAMedication : MTLModel
+@interface MAContact : MTLModel
 
 @property (nonatomic, strong) NSString *name;
-@property (nonatomic, strong) NSNumber *dosage;
+@property (nonatomic, strong) NSNumber *age;
 
 @end

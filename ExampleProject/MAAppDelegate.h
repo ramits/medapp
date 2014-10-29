@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+#define APPDELEGATE ((MAAppDelegate *)[[UIApplication sharedApplication] delegate])
+
+@class MAUser;
+
 @interface MAAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) MAUser *currentUser;
 
 @end
